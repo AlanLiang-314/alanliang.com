@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 10 Jan 2023 16:36:36 +0800</lastBuildDate><atom:link href="https://alanliang.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>矩陣對角化運算</title>
-      <link>https://alanliang.com/posts/my-first-post/</link>
+      <link>https://alanliang.com/posts/%E7%9F%A9%E9%99%A3%E5%B0%8D%E8%A7%92%E5%8C%96%E9%81%8B%E7%AE%97/</link>
       <pubDate>Tue, 10 Jan 2023 16:36:36 +0800</pubDate>
       
-      <guid>https://alanliang.com/posts/my-first-post/</guid>
+      <guid>https://alanliang.com/posts/%E7%9F%A9%E9%99%A3%E5%B0%8D%E8%A7%92%E5%8C%96%E9%81%8B%E7%AE%97/</guid>
       <description>矩陣相乘求 A 的 n 次方的時間複雜度是多少？ 對於 M x M 的矩陣的每一個元素，都要花費一列乘一行，共 M 次的乘法才能獲得，因此矩陣乘法時間複雜度為$O(M^3)$，對於 A 的 n 次方，共要 n-1 次矩陣乘法才能完成，因此求 A 的 n 次方的時間複雜度是$O(N \times M^3)$
 diagonalization 的方法時間複雜度是多少？ 將 M x M 對角矩陣 D 相乘要 M 次乘法，而求 D 的 n 次方需要把 D 相乘 n-1 次。再加上 和 P 以及 P^-1 相乘需要兩次矩陣乘法 因此時間複雜度為 $O(N\times M + 2\times M^3)$
 使用對角化求矩陣的 n 次冪，節省了多少次乘法運算？ 藉由兩者的時間複雜度可以大略估算節省了$N\times M^2 - 2\times M^3$次乘法運算。當 n 越大，節省的計算量越多。
